@@ -12,11 +12,19 @@ export default function Links() {
         })
     }, [])
 
+        useEffect(() => {
+        document.querySelectorAll('h6').forEach(h => {
+            h.innerHTML = `<span class="first-letter">${h.textContent[0]}</span>${h.textContent.slice(1)}`
+        })
+    }, [])
+
+
 
     return(
         <>
+        <h6>As</h6>
         {/* 1 */}
-        <p>a pair of<br/>As</p>
+        <p>a pair of</p>
         {/* 2 */}
         <p>eyes set</p>
         {/* 3 */}

@@ -144,28 +144,20 @@ p:nth-of-type(30) {
     top: 20px;
 }
 
-
-
-
-
-
-
-
 p:hover{
     font-style: italic;
 } */
 
 
-br {
-   display: block;
-   margin: -2px 0px;
-   padding: 0;
-}
 
-
-p {
+p, h6 {
     width: fit-content;
     position: absolute;
+}
+
+h6:nth-of-type(1) {
+    top: 404px;
+    left: 100px;
 }
 
 p:nth-of-type(1) {
@@ -318,7 +310,7 @@ p:nth-of-type(30) {
     left: 260px;
 }
 
-p:hover .first-letter {
+p:hover .first-letter, h6:hover .first-letter {
     font-style: italic !important;
     text-transform: uppercase;
 }
