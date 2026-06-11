@@ -1,5 +1,5 @@
 img {
-    width: 200px;
+    width: 240px;
     z-index: 0;
     @media (min-width: 768px) {
         z-index: 3;
