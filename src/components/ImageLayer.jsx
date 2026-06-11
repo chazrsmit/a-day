@@ -15,8 +15,9 @@ export default function ImageLayer({ images }) {
                     position: 'fixed',
                     left: img.x,
                     top: img.y,
-                    width: 200,
-                    pointerEvents: 'none'
+                    width: 300,
+                    pointerEvents: 'none',
+                    zIndex: 3
                     }}
                 />)
             )}
