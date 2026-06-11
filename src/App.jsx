@@ -41,7 +41,16 @@ const wordMap = {
   'a brief crack': `${IMG}Charlotte0035.jpg`,
   'in the fortress': `${IMG}Charlotte0041.jpg`,
   'of clouds': `${IMG}042644850007.jpg`
+  
 }   
+
+  // preload images
+  useEffect(() => {
+    Object.values(wordMap).forEach(src => {
+      const img = new Image()
+      img.src = src
+    })
+  }, [])
 
   const [images, setImages] = useState([])
 
