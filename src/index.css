@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 :root {
+  --text: #0c0c0c;
+  --bg: #F7F7F9;
+  --serif-1: 'Spectral', serif;
+  --serif-2: 'Old Standard TT', serif;
+  --serif-3: 'Forum', serif;
+  --serif-4: 'Cormorant', serif;
+  --serif-5: 'Sorts Mill Goudy', serif;
+  --serif-6: 'Bentham', serif;
+  --serif-7: 'EB Garamond', serif
   /* --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -26,10 +37,16 @@
   -moz-osx-font-smoothing: grayscale; */
 
   @media (max-width: 1024px) {
-    /* font-size: 16px; */
+    font-size: 16px;
   }
 }
 
+html, body {
+  background: var(--bg);
+  /* font-family: 'Times new roman'; */
+  font-family: var(--serif-7);
+  font-size: 17px;
+}
 
 body {
   margin: 0;
@@ -76,6 +93,7 @@ h2 {
 
 p {
   margin: 0;
+  color: var(--text);
 }
 
 
