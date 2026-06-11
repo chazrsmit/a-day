@@ -3,7 +3,6 @@ import './imagelayer.css'
 
 export default function ImageLayer({ images }) {
 
-
     return(
 
         <>
@@ -16,7 +15,6 @@ export default function ImageLayer({ images }) {
                     position: 'fixed',
                     left: img.x,
                     top: img.y,
-                    width: 300,
                     pointerEvents: 'none',
                     }}
                 />)
