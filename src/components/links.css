@@ -155,6 +155,14 @@ p:hover{
     font-style: italic;
 } */
 
+
+br {
+   display: block;
+   margin: -2px 0px;
+   padding: 0;
+}
+
+
 p {
     width: fit-content;
     position: absolute;
@@ -310,6 +318,7 @@ p:nth-of-type(30) {
     left: 260px;
 }
 
-p:hover{
-    font-style: italic;
+p:hover .first-letter {
+    font-style: italic !important;
+    text-transform: uppercase;
 }

@@ -1,11 +1,22 @@
 import './links.css'
+import { useEffect } from 'react'
 
 export default function Links() {
+
+    // only the first letter will be in italic when hovered
+    // faire un boucle pour chaque mot
+
+    useEffect(() => {
+        document.querySelectorAll('p').forEach(p => {
+            p.innerHTML = `<span class="first-letter">${p.textContent[0]}</span>${p.textContent.slice(1)}`
+        })
+    }, [])
+
 
     return(
         <>
         {/* 1 */}
-        <p>As pair of</p>
+        <p>a pair of<br/>As</p>
         {/* 2 */}
         <p>eyes set</p>
         {/* 3 */}
