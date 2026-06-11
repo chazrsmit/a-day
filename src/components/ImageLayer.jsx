@@ -1,4 +1,5 @@
 
+import './imagelayer.css'
 
 export default function ImageLayer({ images }) {
 
@@ -17,7 +18,6 @@ export default function ImageLayer({ images }) {
                     top: img.y,
                     width: 300,
                     pointerEvents: 'none',
-                    zIndex: 3
                     }}
                 />)
             )}

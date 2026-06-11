@@ -1,0 +1,9 @@
+img {
+    
+    @media (max-width: 767px) {
+        z-index: 0;
+    }
+    @media (min-width: 768px) {
+        z-index: 3;
+    }
+}
