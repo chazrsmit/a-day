@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Links from './components/Links'
 import ImageLayer from './components/ImageLayer'
+import Disclaimer from './components/Disclaimer'
 
 function App() {
 
@@ -99,6 +100,7 @@ function App() {
     <>
       <Links spawnImage={spawnImage} />
       <ImageLayer images={images} />
+      <Disclaimer />
     </>
   )
 }
