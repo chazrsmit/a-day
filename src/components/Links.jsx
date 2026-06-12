@@ -4,8 +4,7 @@ import { useEffect } from 'react'
 export default function Links({ spawnImage }) {
 
     // only the first letter will be in italic when hovered
-    // faire un boucle pour chaque mot
-
+    // faire une boucle pour chaque mot
     useEffect(() => {
         document.querySelectorAll('p').forEach(p => {
             p.innerHTML = `<span class="first-letter">${p.textContent[0]}</span>${p.textContent.slice(1)}`
@@ -18,10 +17,8 @@ export default function Links({ spawnImage }) {
         })
     }, [])
 
-    // vérifier si on est sur mobile ou pas
-    const isMobile = innerWidth < 768
-
-
+    // vérifier si on est sur mobile/tablette ou pas
+    const isMobile = innerWidth < 1024
 
     return(
     <>

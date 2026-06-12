@@ -60,7 +60,7 @@ function App() {
     const isMobile = window.innerWidth < 768
     const padding = 150
     const halfWidth = 150
-    const halfHeight = 180
+    const halfHeight = 200
 
     // on calcule une position aléatoire, en retirant le padding et les demi-dimensions dans rester dans le viewport
     const x = Math.random() * (window.innerWidth - padding - halfWidth)
@@ -82,9 +82,12 @@ function App() {
     // Si l'on est sur mobile, on fait une copie du tableau actuel avec le spread operator, et on y ajoute la nouvelle image
     // > ça veut donc dire que les images précédentes ne sont pas effacées, il y a un effet de stacking
     // Sur desktop, on veut juste une image à la fois dans le tableau 'Images'
-    // attention à ne pas oublier le return
+    // attention à ne pas oublier le return; explications
+    // Une fonction fléchée a 2 formes: sans accolades (const double = x => x * 2, on retourne implicitement l'expression) ;
+    // ou avec accolades (const double = x => { return x * 2 }, c'est un bloc de code, return obligatoire)
     setImages(prev => {
       if (isMobile) {
+        // vu qu'on utilise des accolades dans une fonction fléchée, react attend d'office un return (sinon undefined)
         return [...prev, newImage]
       } else {
         return [newImage] // no stacking
