@@ -20,11 +20,11 @@ function App() {
     'onto most': `${IMG}042644850013.webp`,
     'ordinary': `${IMG}Charlotte0030.webp`,
     'and monotonous': `${IMG}042644850016-2.webp`,
-    'sights': `${IMG}042644850019.webp`,
+    'sights': `${IMG}042644850019-2.webp`,
     'a morsel of': `${IMG}042644850022.webp`,
     'hope': `${IMG}042644850023.webp`,
     'somehow': `${IMG}042644850024.webp`,
-    'wrenched itself': `${IMG}042644850025.webp`,
+    'wrenched itself': `${IMG}042644850025-2.webp`,
     'free from': `${IMG}042644850026.webp`,
     'the growing': `${IMG}042644850027.webp`,
     'fear': `${IMG}042644850031.webp`,
@@ -37,11 +37,11 @@ function App() {
     'figures': `${IMG}Charlotte0013.webp`,
     'heads': `${IMG}Charlotte0019.webp`,
     'angled-downward in': `${IMG}Charlotte0025.webp`,
-    'drizzle-imposed': `${IMG}Charlotte0026.webp`,
-    'choreography and': `${IMG}Charlotte0031.webp`,
+    'drizzle-imposed': `${IMG}Charlotte0026-2.webp`,
+    'choreography and': `${IMG}Charlotte0031-2.webp`,
     'yearnings for': `${IMG}Charlotte0032.webp`,
     'a brief crack': `${IMG}Charlotte0035.webp`,
-    'in the fortress': `${IMG}Charlotte0041.webp`,
+    'in the fortress': `${IMG}Charlotte0041-2.webp`,
     'of clouds': `${IMG}042644850007.webp`
   }   
 
