@@ -17,6 +17,8 @@ export default function ImageLayer({ images }) {
                     top: img.y,
                     pointerEvents: 'none',
                     }}
+                loading="lazy"
+                decoding="async"
                 />)
             )}
 
