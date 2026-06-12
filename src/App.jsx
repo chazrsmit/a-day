@@ -13,13 +13,13 @@ function App() {
   // mapping words with images / dictionnaire de paires associant mots et images
   const wordMap = {
     'As': `${IMG}042644850004.webp`,
-    'a pair of': `${IMG}042644850005.webp`,
+    'a pair of': `${IMG}042644850005-2.webp`,
     'eyes set': `${IMG}042644850008.webp`,
     'their disillusioned': `${IMG}042644850011.webp`,
     'gaze': `${IMG}042644850012.webp`,
     'onto most': `${IMG}042644850013.webp`,
     'ordinary': `${IMG}Charlotte0030.webp`,
-    'and monotonous': `${IMG}042644850016.webp`,
+    'and monotonous': `${IMG}042644850016-2.webp`,
     'sights': `${IMG}042644850019.webp`,
     'a morsel of': `${IMG}042644850022.webp`,
     'hope': `${IMG}042644850023.webp`,
